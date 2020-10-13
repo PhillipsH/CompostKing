@@ -1,0 +1,237 @@
+body {
+    background: #AECD81;
+    color: black;
+    font-family: "Alegreya", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2 {
+    font-size:220%;
+    font-weight: 600;
+    text-align: center;
+    padding: 1%;
+}
+
+h5{
+    font-family: "Alegreya", sans-serif;
+    font-size:150%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 120%;
+    line-height:150%;
+    padding: 3%;
+    text-indent: 0%;
+    text-align: center;
+   
+}
+
+#logo {
+   height:60px;
+    width: auto; 
+   margin-top: -20px;
+}
+.navbar {
+    background-color: #705b43;
+    color: #F5F5DC;
+    margin-bottom: -5px;
+}
+
+.myNavbar {
+    color: white;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+}
+.main {
+    height: 50px;
+    margin-top: 0;
+}
+#mainpicture{
+    max-width:100%;
+    
+    margin: 0 auto;
+}
+
+.infobox1 {
+    background-color: #F1AA90;
+    padding: 1%;
+    text-align: left;
+    height: 300px;
+
+}
+.infobox2{
+    background-color: #BEB9AD;
+    padding: 1%;
+    text-align: left;
+    height: 300px;
+}
+.infobox3{
+    background-color: #AECD81;
+    padding: 1%;
+    text-align: left;
+    height: 300px;
+} 
+.infobox4{
+    background-color: #F1AA90;
+    padding: 2%;
+    text-align: left;
+    height: 300px;
+} 
+.infobox5{
+    background-color: #BEB9AD;
+    padding: 2%;
+    text-align: left;
+    height: 300px;
+} 
+.infobox6{
+    background-color: #AECD81;
+    padding: 2%;
+    text-align: left;
+    height: 300px;
+} 
+.footer {
+    background-color: #514439;
+    padding: 2%;
+    
+}
+.div[class^="col-"] {
+    height:  300px;
+    text-align:  left;
+    border:  2px solid white;
+}
+.landing-col {
+    padding:0px;
+}
+.landing-col img {
+    width:100%;
+}
+.img-rounded {
+   float:left;
+    width: 150px;
+    height: auto;
+}
+
+.jumbotron {
+    background-color: #BEB9AD;
+}
+
+.jumbotron p{
+    font-size: 150%;
+    color: #000000;
+    font-weight: 200;
+    padding: 4px;
+    margin: 1px;
+    text-align: left;
+    padding-bottom: 7px;
+    text-indent: -7px;
+}
+
+.img-circle {
+    display:block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.request {
+    font-weight: bold;
+}
+	
+.choice {
+    font-weight: normal;
+}
+.navbar-header a {
+	text-align: center;
+}
+
+.form-group p {
+    text-align: left;
+}
+
+.request{
+    text-align: left;
+    padding: 0px;
+}
+
+.application {
+    background-color: #F1AA90;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #f08080;
+}
+
+.drink {
+    background-color: #604E39;
+    padding-top: 20px;
+}
+
+.food {
+    background-color: #604E39;
+    padding-top: 20px;
+}
+li {
+    margin: 2px;
+    padding: 2px;
+}
+#menuheader {
+    background-color: #514439;
+}
+
+.img-thumbnail {
+    display:block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.drinkinfo {
+   background-color: #D2B48C;
+
+}
+.foodinfo {
+
+   background-color: #D2B48C;
+}
+
+.performers {
+    text-align: center;
+    background-color: #604E39;
+        padding-top: 20px;
+}
+
+.snackimage {
+    margin: 0;
+    padding: 0;
+}
+.careerobj {
+   color: darkolivegreen;
+   border: 10px dotted black;
+   padding: 15px;
+   background-clip: content-box;
+}
+#searchFieldText:focus {
+    color: black;
+}

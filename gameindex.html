@@ -1,0 +1,85 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>CompostKing</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-app.js"></script>
+
+    <!-- Add additional services you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-functions.js"></script>
+
+    <!-- Comment out (or don't include) services you don't want to use -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-storage.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase.js"></script>
+    <script>
+
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCo-PuD2Tk9v8PRQSnjxxGO4e3ZBTYffOM",
+        authDomain: "compostking-7c515.firebaseapp.com",
+        databaseURL: "https://compostking-7c515.firebaseio.com",
+        projectId: "compostking-7c515",
+        storageBucket: "compostking-7c515.appspot.com",
+        messagingSenderId: "81665754801"
+      };
+      firebase.initializeApp(config);
+
+
+    </script>
+    <script src="scripts/database.js"></script>
+    <script src="scripts/GetDatabase.js"></script>
+    <script src="scripts/phaser.min.js"></script>
+    <script src="scripts/GlobalVariables.js"></script>
+    <script src="scripts/HealthBar.standalone.js"></script>
+    <script src="scripts/Boot.js"></script>
+    <script src="scripts/Preload.js"></script>
+    <script src="scripts/MainMenu.js"></script>
+    <script src="scripts/Leaderboard.js"></script>
+    <script src="scripts/Map.js"></script>
+    <script src="scripts/GamePlay1.js"></script>
+    <script src="scripts/GameOver.js"></script>
+    <script src="scripts/EndLeaderboard.js"></script>
+    <script src="scripts/GamePlay2.js"></script>
+    <script src="scripts/WinState.js"></script>
+    <script src="scripts/LoseState.js"></script>
+    <script src="scripts/phase-slide.js"></script>
+
+
+    <!-- Added CSS so the margins don't increase the page size. -->
+    <style>
+      body {
+        margin:0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+
+      //Game width & height -- these will not change, so they're capitalized (naming convention)
+      GAME_WIDTH = 640;
+      GAME_HEIGHT = 960;
+
+      //Instantiate the game
+      var game = new Phaser.Game(GAME_WIDTH, GAME_HEIGHT, Phaser.CANVAS, '', 'Preload', false, false);
+      var player;
+      var scoreSum = 0;
+
+      //Create game states
+      game.state.add('Boot', myGame.Boot)
+      game.state.add('Preload', myGame.Preload);
+      game.state.add('MainMenu', myGame.MainMenu);
+      game.state.add('Leaderboard', myGame.Leaderboard);
+      game.state.add('Map', myGame.Map);
+      game.state.add('GamePlay1', myGame.GamePlay1);
+      game.state.add('GameOver', myGame.GameOver);
+      game.state.add('EndLeaderboard', myGame.EndLeaderboard);
+      game.state.add('GamePlay2', myGame.GamePlay2);
+      game.state.add('WinState', myGame.WinState);
+      game.state.add('LoseState', myGame.LoseState);
+    </script>
+  </body>
+</html>

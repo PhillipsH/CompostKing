@@ -1,0 +1,87 @@
+/** { margin:0; padding:0; }*/
+
+/*html, body { width:100%; height:100%; }*/
+
+/*canvas { display:block;*/
+    /*width: 100%;*/
+    /*height: 100%;}*/
+
+
+/*#foodYield {*/
+    /*width: 100%;*/
+    /*background-color: #333333;*/
+    /*position: relative;*/
+    /*top: 25px;*/
+    /*left: 20px;*/
+    /*width: 350px;*/
+
+/*}*/
+
+/*!**/
+
+/*#foodBar {*/
+    /*position: absolute;*/
+    /*width: 350px;*/
+    /*background-color: #4CAF50;*/
+/*}*/
+/**!*/
+/*#label {*/
+    /*color: wheat;*/
+    /*border-spacing: 1px;*/
+/*}*/
+
+/*#foodBar {*/
+    /*position:absolute;*/
+    /*width: 100%;*/
+    /*height: 18px;*/
+    /*background-color: green;*/
+/*}*/
+
+#foodYield {
+    width: 100%;
+    background-color: gainsboro;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    width: 350px;
+
+}
+
+
+#user {
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 350px;
+    height: 200px;
+    border-spacing: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#button {
+    text-align: center;
+
+}
+/*
+
+#foodBar {
+    position: absolute;
+    width: 350px;
+    background-color: #4CAF50;
+}
+*/
+#label {
+    color: wheat;
+    border-spacing: 1px;
+}
+
+#foodBar {
+    position:absolute;
+    width: 100%;
+    height: 18px;
+    background-color: green;
+}

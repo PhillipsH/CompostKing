@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#logo{
+    width: 100px;
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+  #pText{
+    text-align: center;
+    color:black;
+    font-size:32px;
+    margin-top: -5px;
+    font-weight:bold;
+  }
+#header{
+  background-color:saddlebrown;
+}
+body{
+  background-color:darkseagreen;
+}
+</style>
+</head>
+<body>
+  <div id="header">
+    <a href = "index.html">
+    <img id="logo" title="logo" alt = "index.html" src="images/CompostKingLogo.png" width="35" height="35" />
+  </a>
+    <p id="pText">Compost King</p>
+  </div>
+
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+    
+    <label for="lname">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Please write here" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  <p>
+      <a href="index.html" target="_self">Back to Homepage</a>
+      <a href="https://twitter.com/compost_k_2018">
+      <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/twitter.png" width="35" height="35" />
+      </a>
+      <a href="https://www.facebook.com/Compost-King-698714790252102/">
+      <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook.png" width="35" height="35" />
+      </a>
+      <a href="mailto:compost.king.2018@gmail.com">
+      <img title="Email" alt="Email" src="https://socialmediawidgets.files.wordpress.com/2014/03/email.png" width="35" height="35" />
+      </a>
+      
+  </p>
+
+</body>
+</html>
